@@ -1,5 +1,3 @@
 while True:
-    if input.sound_level() > 150:
-        light.set_all(light.rgb(0,255,255))
-    else:
-        light.clear()
+    if input.light_level() > 10:
+        music.play_melody("E B C5 A B G A F ", 120)
